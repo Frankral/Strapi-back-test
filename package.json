@@ -11,12 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-cloud": "4.15.4",
-    "@strapi/plugin-i18n": "4.15.4",
-    "@strapi/plugin-users-permissions": "4.15.4",
     "@strapi/strapi": "4.15.4",
+    "@strapi/plugin-users-permissions": "4.15.4",
+    "@strapi/plugin-i18n": "4.15.4",
+    "@strapi/plugin-cloud": "4.15.4",
     "better-sqlite3": "8.6.0",
-    "pg": "^8.11.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
@@ -28,9 +27,9 @@
   "strapi": {
     "uuid": "cdf264af-470f-4cfb-91d4-a2da18837c3e"
   },
-"engines": {
-  "node": "16.14.2",
-  "npm": ">=6.0.0"
- },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
   "license": "MIT"
 }
